@@ -20,7 +20,6 @@ st.markdown("""
         padding-left: 2rem !important;
         padding-right: 2rem !important;
     }
-    header { visibility: hidden !important; }
     
     /* Mengatur logo */
     img { object-fit: contain !important; }
