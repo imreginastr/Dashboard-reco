@@ -270,7 +270,7 @@ if df_raw is not None:
                 st.plotly_chart(fig_box, use_container_width=True)
                 
                 # --- TAMBAHAN KETERANGAN BOXPLOT ---
-                with st.expander("💡 Cara Membaca Visualisasi Boxplot"):
+                with st.expander(" Cara Membaca Visualisasi Boxplot"):
                     st.write("""
                     **Boxplot** digunakan untuk melihat sebaran jumlah kasus dan menemukan **provinsi dengan kasus ekstrem**.
                     * **Area Kotak :** Mewakili 50% data provinsi yang berada di tingkat normal. Garis di tengah kotak adalah nilai tengah (median).
@@ -287,7 +287,7 @@ if df_raw is not None:
                 st.plotly_chart(fig_corr, use_container_width=True)
                 
                 # --- TAMBAHAN KETERANGAN KORELASI ---
-                with st.expander("💡 Cara Membaca Matriks Korelasi"):
+                with st.expander(" Cara Membaca Matriks Korelasi"):
                     st.write("""
                     **Korelasi** mengukur seberapa kuat hubungan antar dua jenis kekerasan (Nilai dari 0 hingga 1).
                     * **Mendekati Angka 1 (Warna Merah):** Hubungannya **sangat kuat**. Artinya, jika suatu kasus kekerasan tinggi di suatu provinsi, maka sangat besar kemungkinannya satu kasus kekerasan lainnya juga ikut tinggi (sering terjadi bersamaan).
