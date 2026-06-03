@@ -5,3 +5,4 @@ streamlit-option-menu
 scikit-learn
 pip
 plotly
+openpyxl
