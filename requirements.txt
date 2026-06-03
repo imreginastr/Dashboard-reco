@@ -1,6 +1,7 @@
 numpy
 pandas
 streamlit
+streamlit-option-menu
 scikit-learn
 pip
 plotly
